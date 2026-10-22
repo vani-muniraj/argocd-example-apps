@@ -4,7 +4,6 @@ metadata:
   name: guestbook-ui
 spec:
   replicas: 2
-  escbashBroken: true
   revisionHistoryLimit: 3
   selector:
     matchLabels:
